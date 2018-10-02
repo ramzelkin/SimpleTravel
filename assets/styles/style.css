@@ -25,7 +25,6 @@ header {
    justify-content: space-between;
 }
 .imageForMainPage {
-   margin: auto;
    background-image: url(../images/travel.png);
    width: 400px;
    height: 390px;
@@ -37,6 +36,29 @@ header {
 }
 .divContainerForDivs {
    display: flex;
+   justify-content: space-between;
    flex-direction: row;
-   
+   width: 75px;
+   flex-wrap: wrap;
+}
+.svg_i-msg {
+   width: 70px;
+   height: 70px;
+   border-top: 1px solid black;
+   border-left: 1px solid black;
+   transform: rotate(224deg);
+}
+.svg_i-msg svg {
+   transform: rotate(-224deg);
+}
+.svg_i-external {
+   width: 70px;
+   height: 70px;
+   border-top: 1px solid black;
+   border-left: 1px solid black;
+   transform: rotate(45deg);
+   margin-top: -7px;
+}
+.svg_i-external svg {
+   transform: rotate(-45deg);
 }
